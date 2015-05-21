@@ -80,9 +80,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 * fake tweets and how to query it, using DRPC calls. 
 * This example should be intended as
 * an example of {@link TridentState} custom implementation.
-* Modified by YOUR NAME from original author:
-* @author Nagiza Samatova (samatova@csc.ncsu.edu)
-* @author Preetham Srinath (pmahish@ncsu.edu)
+* @author Rohit Poduval
+
 */
 public class RealTimeElasticSearchTopology {
 	
@@ -287,7 +286,7 @@ public class RealTimeElasticSearchTopology {
 
           drpcResult = drpc.execute("search_event", query6+" "+index_name+" "+index_type);
           System.out.println("DRPC RESULT wildcardQuery: " + drpcResult);
-          Thread.sleep(4000);
+          Thread.sleep(5000);
        }
 
         System.out.println("STATUS: OK");

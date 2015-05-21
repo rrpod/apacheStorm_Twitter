@@ -80,9 +80,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 * fake tweets and how to query it, using DRPC calls. 
 * This example should be intended as
 * an example of {@link TridentState} custom implementation.
-* Modified by YOUR NAME from original author:
-* @author Nagiza Samatova (samatova@csc.ncsu.edu)
-* @author Preetham Srinath (pmahish@ncsu.edu)
+* @author Rohit Poduval
 */
 public class RealTimeElasticSearchTopology {
 	
